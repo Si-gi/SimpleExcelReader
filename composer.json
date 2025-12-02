@@ -1,0 +1,16 @@
+{
+    "name": "si-gi/simple-excel-reader",
+    "type": "library",
+    "license": "GPL-2.0",
+    "autoload": {
+        "psr-4": {
+            "SiGi\\SimpleExcelReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "simon gilbert gilbert.simonj@gmail.com"
+        }
+    ],
+    "require": {}
+}
