@@ -4,13 +4,24 @@
     "license": "GPL-2.0",
     "autoload": {
         "psr-4": {
-            "SiGi\\SimpleExcelReader\\": "src/"
+            "Sigi\\SimpleExcelReader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        "Sigi\\SimpleExcelReader\\Tests\\": "tests/"
         }
     },
     "authors": [
         {
-            "name": "simon gilbert gilbert.simonj@gmail.com"
+            "name": "Simon GILBERT",
+            "email": "gilbert.simonj@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^12.4",
+        "phpunit/php-timer": "^8.0",
+        "phpstan/phpstan": "^2.1"
+    }
+
 }
