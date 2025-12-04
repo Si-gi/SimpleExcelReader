@@ -1,7 +1,8 @@
 {
     "name": "si-gi/simple-excel-reader",
     "type": "library",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-or-later",
+    "description": "Simple library to find rows of excel file, made for large file"
     "autoload": {
         "psr-4": {
             "Sigi\\SimpleExcelReader\\": "src/"
