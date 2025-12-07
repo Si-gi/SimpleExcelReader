@@ -1,8 +1,8 @@
 {
     "name": "si-gi/simple-excel-reader",
     "type": "library",
-    "description": "Read and find value from excel file easily and fast",
     "license": "GPL-2.0-or-later",
+    "description": "Simple library to find rows of excel file, made for large file",
     "authors": [
         {
             "name": "Simon GILBERT",
