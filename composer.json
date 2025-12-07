@@ -1,7 +1,21 @@
 {
     "name": "si-gi/simple-excel-reader",
     "type": "library",
-    "license": "GPL-2.0",
+    "description": "Read and find value from excel file easily and fast",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Simon GILBERT",
+            "email": "gilbert.simonj@gmail.com"
+        }
+    ],
+    "keywords": [
+        "excel",
+        "reader",
+        "fast",
+        "fastest",
+        "simple"
+    ],
     "autoload": {
         "psr-4": {
             "Sigi\\SimpleExcelReader\\": "src/"
@@ -12,12 +26,6 @@
         "Sigi\\SimpleExcelReader\\Tests\\": "tests/"
         }
     },
-    "authors": [
-        {
-            "name": "Simon GILBERT",
-            "email": "gilbert.simonj@gmail.com"
-        }
-    ],
     "require-dev": {
         "phpunit/phpunit": "^12.4",
         "phpunit/php-timer": "^8.0",
